@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>FedEx Tracking</ShortName>
+	<Description>Track a package with FedEx.com</Description>
+	<Url type="text/html" method="post" template="https://www.fedex.com/en-us/home.html?trackingnumber={searchTerms}"/>
+	<Contact>drew@drewchapin.com</Contact>
+	<Image width="16" height="16" type="image/vnd.microsoft.icon">https://www.fedex.com/etc/designs/fedex-common/images/fx-favicon.ico</Image>
+	<Developer>Drew Chapin</Developer>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Language>en-us</Language>
+	<moz:SearchForm>https://www.fedex.com/en-us/home.html</moz:SearchForm>
+	<Url type="application/opensearchdescription+xml" rel="self" template="file:///C:/Users/glsp168/Source/OpenSearch-Plugins/fedex-tracking.xml"/>
+</OpenSearchDescription>

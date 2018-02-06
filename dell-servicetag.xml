@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Dell Service Tag</ShortName>
+	<Description>Search Dell Support page by service tag.</Description>
+	<Url type="text/html" method="get" template="http://www.dell.com/support/home/us/en/19/product-support/servicetag/{searchTerms}"/>
+	<Contact>drew@drewchapin.com</Contact>
+	<Image width="16" height="16" type="image/vnd.microsoft.icon">http://www.dell.com/favicon.ico</Image>
+	<Developer>Drew Chapin</Developer>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Language>en-us</Language>
+	<moz:SearchForm>http://www.dell.com/support</moz:SearchForm>
+	<Url type="application/opensearchdescription+xml" rel="self" template="dell-servicetag.xml"/>
+</OpenSearchDescription>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>OpenSearch Plugins</title>
+	<link rel="search" type="application/opensearchdescription+xml" title="FedEx" href="fedex-tracking.xml">
+	<script type="text/javascript">
+		function addOpenSearch( name, meth ) {
+			if( window.external && ("AddSearchProvider" in window.external) ) {
+				// typeof weASP matches IE, wc matches Chrome, wnv matches Camino (bugs 430058/430067/430070)
+				if( meth == "p" && ((window.chrome) || (typeof window.external.AddSearchProvider == "unknown") || (window.navigator.vendor == 'Camino')) ) {
+					alert("This plugin uses POST which is not supported by all implementations of OpenSearch.");
+				} else {
+					window.external.AddSearchProvider(name + ".xml");
+				}
+			} else {
+				alert("Your browser does not support OpenSearch search plugins.");
+			}
+		}
+	</script>
+</head>
+<body>
+	<ul>
+		<li><a href="#" onClick="addOpenSearch('dell-servicetag','g');return false">Dell Service Tag</a></li>
+		<li><a href="#" onClick="addOpenSearch('fedex-tracking','p');return false">FedEx Tracking</a></li>
+	</ul>
+</body>
+</html>
