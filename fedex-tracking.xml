@@ -9,5 +9,5 @@
 	<InputEncoding>UTF-8</InputEncoding>
 	<Language>en-us</Language>
 	<moz:SearchForm>https://www.fedex.com/en-us/home.html</moz:SearchForm>
-	<Url type="application/opensearchdescription+xml" rel="self" template="file:///C:/Users/glsp168/Source/OpenSearch-Plugins/fedex-tracking.xml"/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://raw.githubusercontent.com/drewchapin/OpenSearch-Plugins/master/fedex-tracking.xml"/>
 </OpenSearchDescription>

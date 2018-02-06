@@ -9,5 +9,5 @@
 	<InputEncoding>UTF-8</InputEncoding>
 	<Language>en-us</Language>
 	<moz:SearchForm>http://www.dell.com/support</moz:SearchForm>
-	<Url type="application/opensearchdescription+xml" rel="self" template="dell-servicetag.xml"/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://raw.githubusercontent.com/drewchapin/OpenSearch-Plugins/master/dell-servicetag.xml"/>
 </OpenSearchDescription>

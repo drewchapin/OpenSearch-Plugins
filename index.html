@@ -10,7 +10,7 @@
 				if( meth == "p" && ((window.chrome) || (typeof window.external.AddSearchProvider == "unknown") || (window.navigator.vendor == 'Camino')) ) {
 					alert("This plugin uses POST which is not supported by all implementations of OpenSearch.");
 				} else {
-					window.external.AddSearchProvider(name + ".xml");
+					window.external.AddSearchProvider("https://raw.githubusercontent.com/drewchapin/OpenSearch-Plugins/master/" + name + ".xml");
 				}
 			} else {
 				alert("Your browser does not support OpenSearch search plugins.");
